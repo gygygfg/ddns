@@ -1,0 +1,28 @@
+2026-01-17T00:01:54.993Z Running...
+Sat Jan 17 2026 08:01:55 GMT+0800 (中国标准时间): Error: queryA ESERVFAIL bxsr.f3322.net
+node:internal/errors:985
+  const err = new Error(message);
+              ^
+
+Error: Command failed: ip addr show enp1s0 | grep "scope global dynamic noprefixroute"
+    at genericNodeError (node:internal/errors:985:15)
+    at wrappedFn (node:internal/errors:539:14)
+    at checkExecSyncError (node:child_process:925:11)
+    at execSync (node:child_process:997:15)
+    at /root/code/ddns/app.js:22:22 {
+  status: 1,
+  signal: null,
+  output: [ null, Buffer(0) [Uint8Array] [], Buffer(0) [Uint8Array] [] ],
+  pid: 4246,
+  stdout: Buffer(0) [Uint8Array] [],
+  stderr: Buffer(0) [Uint8Array] []
+}
+
+Node.js v24.11.1
+nt8Array] [] ],
+  pid: 4587,
+  stdout: Buffer(0) [Uint8Array] [],
+  stderr: Buffer(0) [Uint8Array] []
+}
+
+Node.js v24.11.1
